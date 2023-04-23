@@ -1,0 +1,20 @@
+{
+  "name": "mocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/fast.test.js",
+    "test:cov": "npx nyc node tests/fast.test.js"
+  },
+  "keywords": [],
+  "author": "chrissgon",
+  "license": "ISC",
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "sinon": "^15.0.4"
+  },
+  "engines": {
+    "node": "19"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "aula04-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/api.js",
+    "test": "npx mocha src/*.test.js",
+    "test:watch": "npx mocha -w src/*.test.js",
+    "test:cov": "npx nyc npx mocha src/*.test.js"
+  },
+  "keywords": [],
+  "author": "chrissgon",
+  "license": "ISC",
+  "engines": {
+    "node": "19"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "supertest": "^6.3.3"
+  }
+}
