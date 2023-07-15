@@ -10,6 +10,7 @@ const makeWareHouseMock = () => {
   const warehouseMock = sandbox.mock(warehouse);
   const hasInventoryMock = warehouseMock.expects(warehouse.hasInventory.name);
   hasInventoryMock.resolves(true);
+  
   return warehouse;
 };
 

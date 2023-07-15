@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/fast.test.js",
+    "test": "node tests/slow.test.js",
     "test:cov": "npx nyc node tests/fast.test.js"
   },
   "keywords": [],

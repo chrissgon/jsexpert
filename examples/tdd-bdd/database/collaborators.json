@@ -1,0 +1,17 @@
+[
+  {
+    "collaboratorID": "0f06e025-b5ba-456b-b4c8-d48f391c7f1a",
+    "name": "Terrence Lang",
+    "type": "COORDINATOR"
+  },
+  {
+    "collaboratorID": "30b1fde2-7948-470c-a64c-5b6f7aefbccb",
+    "name": "Wallace Corkery",
+    "type": "TEACHER"
+  },
+  {
+    "collaboratorID": "0271b3dd-6e9f-4f37-a57a-929415181966",
+    "name": "Norman Hoeger",
+    "type": "STUDENT"
+  }
+]

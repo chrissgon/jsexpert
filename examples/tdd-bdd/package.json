@@ -1,0 +1,22 @@
+{
+  "name": "tdd-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx c8 npx mocha --parallel **/**/*.test.js",
+    "seed": "node ./seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.2.0",
+    "c8": "^8.0.0"
+  }
+}

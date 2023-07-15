@@ -1,0 +1,23 @@
+[
+  {
+    "id": "efce0deb-0570-4c1a-9761-ae98fd528f47",
+    "name": "Hatchback",
+    "releaseYear": 2023,
+    "available": true,
+    "hasGas": true
+  },
+  {
+    "id": "207d7240-dc22-47de-a77e-cb56505e959e",
+    "name": "Coupe",
+    "releaseYear": 2022,
+    "available": true,
+    "hasGas": true
+  },
+  {
+    "id": "ba1ae591-32eb-4eae-a06d-0ba7967bf825",
+    "name": "Hatchback",
+    "releaseYear": 2022,
+    "available": true,
+    "hasGas": true
+  }
+]

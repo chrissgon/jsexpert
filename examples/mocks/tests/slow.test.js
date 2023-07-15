@@ -8,8 +8,7 @@ const makeWareHouse = () => {
 
 (async () => {
   {
-    const warehouse = new WareHouse();
-    warehouse.add("JACK_DANIELS", 50);
+    const warehouse = makeWareHouse()
 
     const expected = { JACK_DANIELS: 50 };
     const result = warehouse.getAll();
