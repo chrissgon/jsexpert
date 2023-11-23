@@ -1,0 +1,21 @@
+{
+  "name": "demo02-esmodules",
+  "module": "src/index.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "test": "bun test --watch tests/*.test.js",
+    "test:cov": "bun test --coverage",
+    "dev": "bun ."
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "4",
+    "chalk-table": "1",
+    "draftlog": "1"
+  }
+}
